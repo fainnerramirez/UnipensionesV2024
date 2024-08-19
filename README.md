@@ -1,5 +1,5 @@
 ## Unipensiones
 
-- Actualización de Unipensio es version 2024.1
+- Actualización de Unipension a version 2024.1
 
-###Autor: Fainner Ramirez
+##Autor: Fainner Ramirez
