@@ -7,12 +7,12 @@ const Masonry = () => {
     <ResponsiveMasonry>
       <MasonryGallery>
         <Image src={require("../../assets/pension.jpg")} p={1} height={"50%"} />
-        <Image src={require("../../assets/pension.jpg")} p={1} height={"40%"} />
-        <Image src={require("../../assets/pension.jpg")} p={1} height={"70%"} />
-        <Image src={require("../../assets/pension.jpg")} p={1} height={"60%"} />
         <Image src={require("../../assets/pension.jpg")} p={1} height={"50%"} />
-        <Image src={require("../../assets/pension.jpg")} p={1} height={"80%"} />
-        <Image src={require("../../assets/pension.jpg")} p={1} height={"90%"} />
+        <Image src={require("../../assets/pension.jpg")} p={1} height={"50%"} />
+        <Image src={require("../../assets/pension.jpg")} p={1} height={"50%"} />
+        <Image src={require("../../assets/pension.jpg")} p={1} height={"50%"} />
+        <Image src={require("../../assets/pension.jpg")} p={1} height={"50%"} />
+        <Image src={require("../../assets/pension.jpg")} p={1} height={"50%"} />
       </MasonryGallery>
     </ResponsiveMasonry>
   );

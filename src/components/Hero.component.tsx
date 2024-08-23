@@ -48,7 +48,7 @@ const Hero = () => {
                 bg: "green.500",
               }}
             >
-              Explorar
+              Crear cuenta
             </Button>
           </Stack>
         </Stack>
