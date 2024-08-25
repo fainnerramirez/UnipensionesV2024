@@ -54,7 +54,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
+      <Box bg={useColorModeValue("gray.100", "gray.900")} px={4} width={"100%"}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <Box width={"100%"}>
             <Box
@@ -93,17 +93,14 @@ export const Navbar = () => {
                     cursor={"pointer"}
                     minW={0}
                   >
-                    <Avatar
-                      size={"sm"}
-                      src={require("../assets/user-not-found.png")}
-                    />
+                    <Avatar size={"sm"} src={require("../assets/user.png")} />
                   </MenuButton>
                   <MenuList alignItems={"center"}>
                     <br />
                     <Center>
                       <Avatar
                         size={"2xl"}
-                        src={require("../assets/user-not-found.png")}
+                        src={require("../assets/user.png")}
                       />
                     </Center>
                     <br />
