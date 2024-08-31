@@ -1,4 +1,4 @@
-import { Box, Heading, HStack, Text, VStack } from "@chakra-ui/react";
+import { Box, Heading, HStack, Stack, Text, VStack } from "@chakra-ui/react";
 import React from "react";
 import VisitsComponent from "./components/Visits.component";
 import HeaderDashboardComponent from "./components/HeaderDashboard.component";
@@ -13,9 +13,9 @@ const DashboardPage = () => {
   return (
     <>
       <HeaderDashboardComponent />
-      <VStack padding={10} spacing={10} width={"100vw"}>
-        <HStack
-          justifyContent={"space-around"}
+      <VStack padding={10} spacing={10} width={"100%"}>
+        <Stack
+          justifyContent={{ base: "center", md: "space-around" }}
           direction={["column", "row"]}
           width={"100%"}
         >
@@ -23,17 +23,16 @@ const DashboardPage = () => {
           <SubscriptionsComponent />
           <PostComponent />
           <LikesComponent />
-        </HStack>
-        <HStack
-          spacing={10}
-          justifyContent={"space-evenly"}
+        </Stack>
+        <Stack
+          spacing={{ base: 5, md: 10 }}
+          justifyContent={{ base: "center", md: '"space-evenly"' }}
           width={"100%"}
           direction={["column", "row"]}
-          alignItems={"flex-start"}
         >
           <PostRecientComponent />
           <RecentVisitsComponent />
-        </HStack>
+        </Stack>
       </VStack>
     </>
   );

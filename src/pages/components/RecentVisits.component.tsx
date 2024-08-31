@@ -53,7 +53,12 @@ const RecentVisitsComponent = () => {
   ]);
 
   return (
-    <Box width={"40%"} bg={bg} borderRadius={10} color={color}>
+    <Box
+      width={{ base: "100vw", md: "40%" }}
+      bg={bg}
+      borderRadius={10}
+      color={color}
+    >
       <Box padding={5}>
         <Heading as={"h2"} mb={4} size={"md"}>
           Visitas recientes

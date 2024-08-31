@@ -16,7 +16,7 @@ const PostRecientComponent = () => {
   const bg = useColorModeValue("gray.100", "gray.700");
 
   return (
-    <Box>
+    <Box width={{ base: "100%", md: "50%" }}>
       <Box padding={5}>
         <Heading as="h3" fontSize={20} textTransform={"capitalize"}>
           Tu última publicación

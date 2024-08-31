@@ -17,6 +17,7 @@ const HeaderDashboardComponent = () => {
       display={"flex"}
       justifyContent={"space-between"}
       alignItems={"center"}
+      flexDirection={{ base: "column", md: "row" }}
     >
       <Heading>Dashboard</Heading>
       <HStack spacing={5}>

@@ -1,5 +1,3 @@
-"use client";
-
 import {
   Box,
   chakra,
@@ -59,6 +57,7 @@ export default function FooterComponent() {
     <Box
       bg={useColorModeValue("gray.50", "gray.900")}
       color={useColorModeValue("gray.700", "gray.200")}
+      width={{ base: "100%" }}
     >
       <Container
         as={Stack}
@@ -69,20 +68,6 @@ export default function FooterComponent() {
         align={"center"}
       >
         <Logo />
-        <Stack direction={"row"} spacing={6}>
-          <Box as="a" href={"#"}>
-            Home
-          </Box>
-          <Box as="a" href={"#"}>
-            About
-          </Box>
-          <Box as="a" href={"#"}>
-            Blog
-          </Box>
-          <Box as="a" href={"#"}>
-            Contact
-          </Box>
-        </Stack>
       </Container>
 
       <Box

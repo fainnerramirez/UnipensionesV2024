@@ -9,7 +9,7 @@ interface Props {
 
 const Layout = ({ children }: Props) => {
   return (
-    <Box>
+    <Box width={"100%"}>
       <Navbar />
       {children}
       <FooterComponent />
