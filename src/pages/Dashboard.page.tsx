@@ -17,6 +17,7 @@ const DashboardPage = () => {
         <Stack
           justifyContent={{ base: "center", md: "space-around" }}
           direction={["column", "row"]}
+          wrap={"wrap"}
           width={"100%"}
         >
           <VisitsComponent />

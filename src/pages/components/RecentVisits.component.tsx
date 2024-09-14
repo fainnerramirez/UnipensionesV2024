@@ -54,7 +54,7 @@ const RecentVisitsComponent = () => {
 
   return (
     <Box
-      width={{ base: "100vw", md: "40%" }}
+      width={{ base: "100%", md: "40%" }}
       bg={bg}
       borderRadius={10}
       color={color}

@@ -18,7 +18,7 @@ const PostRecientComponent = () => {
   return (
     <Box width={{ base: "100%", md: "50%" }}>
       <Box padding={5}>
-        <Heading as="h3" fontSize={20} textTransform={"capitalize"}>
+        <Heading as="h3" fontSize={20}>
           Tu última publicación
         </Heading>
       </Box>
