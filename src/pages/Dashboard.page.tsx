@@ -13,12 +13,11 @@ const DashboardPage = () => {
   return (
     <>
       <HeaderDashboardComponent />
-      <VStack padding={10} spacing={10} width={"100%"}>
+      <VStack spacing={10} width={"90%"} margin={"auto"}>
         <Stack
           justifyContent={{ base: "center", md: "space-around" }}
           direction={["column", "row"]}
           wrap={"wrap"}
-          width={"100%"}
         >
           <VisitsComponent />
           <SubscriptionsComponent />
