@@ -44,12 +44,6 @@ const RecentVisitsComponent = () => {
       email: "fai@dev.com",
       url: require("../../assets/user.png"),
     },
-    {
-      id: 6,
-      name: "Fainner Ramirez",
-      email: "fai@dev.com",
-      url: require("../../assets/user.png"),
-    },
   ]);
 
   return (
@@ -67,8 +61,8 @@ const RecentVisitsComponent = () => {
           Mostrando los últimos {users.length} visitas recientes
         </Text>
       </Box>
-      {users.map((user: UserData) => (
-        <UserVisitComponent user={user} />
+      {users.map((user: UserData, index) => (
+        <UserVisitComponent user={user} key={index + 1} />
       ))}
     </Box>
   );

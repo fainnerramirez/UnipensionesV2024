@@ -58,6 +58,7 @@ export default function FooterComponent() {
       bg={useColorModeValue("gray.50", "gray.900")}
       color={useColorModeValue("gray.700", "gray.200")}
       width={{ base: "100%" }}
+      marginTop={10}
     >
       <Container
         as={Stack}

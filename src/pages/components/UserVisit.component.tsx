@@ -14,11 +14,12 @@ import React, { useState } from "react";
 const UserVisitComponent = ({ user }: any) => {
   return (
     <Box
-      width={"100%"}
+      width={{ base: "100%", md: "60%" }}
       padding={5}
       display={"flex"}
       justifyContent={"space-between"}
       alignItems={"center"}
+      margin={"auto"}
     >
       <HStack key={user.id} spacing={5}>
         <Avatar size="md" src={user.url} name={user.name} />

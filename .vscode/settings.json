@@ -1,3 +1,4 @@
 {
-  "editor.fontFamily": "Fira Code Medium"
+  "editor.fontFamily": "Fira Code Medium",
+  "editor.fontSize": 13
 }

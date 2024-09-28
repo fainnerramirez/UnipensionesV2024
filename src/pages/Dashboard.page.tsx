@@ -4,10 +4,10 @@ import VisitsComponent from "./components/Visits.component";
 import HeaderDashboardComponent from "./components/HeaderDashboard.component";
 import SubscriptionsComponent from "./components/Subscriptions.component";
 import LikesComponent from "./components/Likes.component";
-import BarChart from "./components/PostRecient.component";
 import RecentVisitsComponent from "./components/RecentVisits.component";
 import PostComponent from "./components/Post.component";
 import PostRecientComponent from "./components/PostRecient.component";
+import { BarCharts } from "./components/Charts.component";
 
 const DashboardPage = () => {
   return (
@@ -30,7 +30,7 @@ const DashboardPage = () => {
           width={"100%"}
           direction={["column", "row"]}
         >
-          <PostRecientComponent />
+          <BarCharts />
           <RecentVisitsComponent />
         </Stack>
       </VStack>
